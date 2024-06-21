@@ -76,12 +76,21 @@ width: 60px ;
 
      display: flex;
      justify-content: space-around;
+     align-items: center;
+     padding: 16px 0
 }
-
-.container_botao {
-     background-color: var(-botao-azul);
-     border-radius: 5px;
-     padding: 1em;
-     color: var(--branco-principal);
-     display: block;
-    }
+.container_botao
+{
+          background-color: var(-botao-azul);
+          border-radius: 5px;
+          padding: 1em;
+          color: var(--branco-principal);
+          display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.botoes
+{
+          background-color: #7f8194;
+          color: #1b2043;
+          }
